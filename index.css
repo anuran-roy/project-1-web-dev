@@ -1,0 +1,39 @@
+*{
+    background-image: url("./assets/Background.png");
+
+}
+.body-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 5%;
+    margin: 0%;
+}
+.header{
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 4%;
+    margin: 0;
+}
+.topic{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: turquoise;
+}
+.text{
+    display: flexbox;
+    flex-direction: column;
+    color: white;
+}
+ion-icon{
+    color: white;
+}
+.yt-video
+{
+    display: flex;
+    flex-direction: row;
+    align-items:flex;
+    padding-top: 5%;
+}
